@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.header-section{
+    background: #87509c;
+    min-height: 80vh;
+    position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    background: #643a79;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.navbar-collapse {
+    z-index: 1;
+}
+
+.banner-content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-content h1{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.btn-custom{}
+.btn-custom a{
+    background: #eb7d4b;
+    color: #fff;
+    padding: 15px 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.btn-custom a:hover{
+    background: #c86a40;
+}
+
+
+/*** service-section ***/
+.service-section{
+    background: #17c2a4;
+    padding: 100px 0px;
+}
+.heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.heading span{
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background: #15a78d;
+}
+.heading p{
+    font-size: 18px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.service{
+    color: #fff;
+    text-align: center;
+}
+.service img{
+    height: 130px;
+}
+.service h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 0px 10px;
+}
+.service p{
+    font-weight: 16px;
+}
+
+/**** team-section ****/
+
+.team-section{
+    background: #e7f1f8;
+    padding: 100px 0px;
+}
+.headingblack{
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.headingblack h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.headingblack span{
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background: #c8d9e5;
+}
+.headingblack p{
+    font-size: 18px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.team-content{
+    text-align: center;
+    color: #3c4761;
+}
+.team-content img{margin-bottom: 30px;width: 70%;}
+.team-content h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+.team-content h5{
+    font-size: 16px;
+    color: #30bae7;
+    margin-bottom: 15px;
+}
+.team-content p{
+    font-size: 16px;
+}
+.social-icon{}
+.social-icon a{
+    background: #bdd1df;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 3px;
+}
+.social-icon a:hover{
+    background: #30bae7;
+}
+
+.skill-section{
+    padding: 100px 0px;
+}
+
+.skill{
+    text-align: center;
+}
+.skill .skill-parcent{
+    position: relative;
+}
+.skill .skill-parcent img{}
+.skill .skill-parcent strong{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-weight: 200;
+    color: #3c4761;
+}
+.skill .skill-parcent strong sub{font-weight: 700;bottom: 0px;font-size: 24px;}
+.skill h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3c4761;
+    margin-top: 20px;
+}
+
+/*** portfolio-section ***/
+.portfolio-section{
+    padding: 100px 0px;
+    background: #ffdd99;
+}
+
+.portfolio-section .nav{
+    margin-bottom: 40px;
+}
+.portfolio-section .nav .nav-item{}
+.portfolio-section .nav .nav-item .nav-link{
+    color: #fff;
+    background: #bfa267;
+    margin: 10px 10px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.portfolio-section .nav .nav-item .nav-link:hover{
+    background: #fff;
+    color: #bfa267;
+}
+
+.portfolio{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio img{}
+.portfolio h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.button{
+    text-align: center;
+    width: 100%;
+}
+.button a{
+    display: inline-block;
+    background: #17c2a4;
+    padding: 12px 40px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button a:hover{
+    background: #139881;
+    text-decoration: none;
+}
+
+.about-section{
+    padding: 100px 0px;
+    background: #d74680;
+    padding-bottom: 50px;
+}
+
+.about-content{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.about-content img{display: block;margin: 0 auto;}
+.about-content p{
+    font-size: 20px;
+    font-style: italic;
+}
+.about-content h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 30px;
+}
+.about-content h6{
+    font-size: 16px;
+    color: #ffd685;
+}
+
+.contact-section{
+    padding: 100px 0px;
+    background: #3c5499;
+}
+
+.input-text{
+    width: 70%;
+    margin-left: auto;
+}
+.input-text input{
+    background: #273a71;
+    border: 0px;
+}
+.input-text2{
+    width: 70%;
+    margin-right: auto;
+}
+.input-text2 input{
+    background: #273a71;
+    border: 0px;
+}
+.message{
+
+    width: 71%;
+    margin: 25px auto;
+}
+.message textarea{
+    background: #273a71;
+    border: 0px;
+}
+.form-control:focus {
+    color: #273a71;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(59, 81, 146);
+}
+
+.button2{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.button2 a{
+    display: inline-block;
+    background: #30bae7;
+    padding: 12px 40px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button2 a:hover{
+    background: #1592bb;
+    text-decoration: none;
+}
+
+/*** footer-section ***/
+
+.footer-section{
+    background: #344b8e;
+    padding: 20px 0px;
+}
+.footer-section .nav{}
+.footer-section .nav .nav-item{}
+.footer-section .nav .nav-item .nav-link{
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 28px;
+}
+
+.footer-section .nav .nav-item .nav-link:hover{
+    color: #30bae7;
+}
